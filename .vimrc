@@ -6,3 +6,8 @@ filetype plugin indent on
 
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+\%#\@<!$/
+
+set number
+set relativenumber
+
+imap jk <Esc>
