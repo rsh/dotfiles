@@ -11,3 +11,8 @@ set number
 set relativenumber
 
 imap jk <Esc>
+
+syntax on
+highlight Comment cterm=italic
+
+set conceallevel=2
